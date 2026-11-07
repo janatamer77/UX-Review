@@ -580,7 +580,7 @@ h2{
 .authors .line{
     background-color: #111111;
     padding: 5px;
-    width: 10%;
+    width: 30%;
     margin: 0 auto;
     margin-bottom: 10px;
     transform: rotate(2deg);
@@ -705,7 +705,7 @@ h2{
 .community .line{
     background-color: #111111;
     padding: 5px;
-    width: 10%;
+    width: 30%;
     margin: 0 auto;
     transform: rotate(-2deg);
 }
@@ -769,13 +769,18 @@ h2{
     margin: 24px 0;
 }
 .content3 p{
-    font-size:105% ;
+    /* font-size:105% ; */
+    font-size: 95%;
+    width: 80%;
     font-weight: 600;
 }
 .content3 img{
-    width: 53px;
-    height: 53px;
-    padding: 15px;
+    /* width: 53px;
+    height: 53px; */
+    width: 43px;
+    height: 43px;
+    /* padding: 15px; */
+    padding: 5px;
     border: 2px solid #111111;
 }
 .community-person{
@@ -1031,7 +1036,23 @@ h2{
     width: 130px;
     height: 130px;
     z-index: 0;
-}
+    }
+    .content3 p{
+    font-size:105% ;
+    }
+    .content3 img{
+    width: 53px;
+    height: 53px; 
+    padding: 15px;
+    }
+    
+    .community .line{ 
+        width: 10%;
+    }
+    .authors .line{
+        width: 10%;
+    }
+
 }
 @media screen  and  (min-width: 1280px){
     .nav .nav-center ,.nav-left {
