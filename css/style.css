@@ -212,7 +212,6 @@ ul{
 }
 /* home */
 .home{
-    height: 100vh;
     background-color: #FFF085;
     position: relative;
     padding: 48px 0;
