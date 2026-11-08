@@ -18,6 +18,10 @@ body{
     margin: 0 auto;
     font-family:"Exo" , sans-serif;
 }
+body::selection{
+    background-color: #E5BD2B;
+    color: #000000;
+}
 .bg-shape {
     position: absolute;
     inset: 0;
