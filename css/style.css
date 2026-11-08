@@ -37,7 +37,7 @@ body{
 }
 .shape-two {
     background-color: #E5D877;
-    top: 10px;
+    top: 20px;
     left:80px;
     transform: rotate(-20deg);
 }
@@ -133,7 +133,7 @@ h1,h2,h3,h4,h5,h6{
     color: #7B7B7B;
 }
 /* nav bar  */
-.header{
+.navbar{
     position: fixed;
     top: 0;
     right: 0;
@@ -212,6 +212,7 @@ ul{
 }
 /* home */
 .home{
+    height: 100vh;
     background-color: #FFF085;
     position: relative;
     padding: 48px 0;
@@ -416,12 +417,9 @@ h2{
     align-items: center;
     gap: 10px;
 }
-.card-content span{
-    /* font-weight: 600; */
-}
+
 .card-content span img{
     width: 20px;
-    /* padding-top: 36px; */
 }
 .card-content .left-content{
     justify-content: space-between;
