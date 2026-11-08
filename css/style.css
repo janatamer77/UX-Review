@@ -417,10 +417,11 @@ h2{
     gap: 10px;
 }
 .card-content span{
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 .card-content span img{
     width: 20px;
+    /* padding-top: 36px; */
 }
 .card-content .left-content{
     justify-content: space-between;
@@ -473,7 +474,7 @@ h2{
     padding: 36px;
 }
 .con-content{
-    gap: 20px;
+    gap: 6px;
     justify-content: start;
     align-items: flex-start;
 }
@@ -495,7 +496,9 @@ h2{
 .con-content .content-num p{
     margin:5px 0;
     font-family:"Exob" , sans-serif ;
-    font-size: 200%;
+}
+.content-p p{
+    margin: 10px 0;
 }
 .min-card{
     padding: 10px;
@@ -1052,6 +1055,16 @@ h2{
     .authors .line{
         width: 10%;
     }
+    .con-content{
+    gap: 20px;
+    }
+    .con-content .content-num p{
+    
+    font-size: 200%;
+    }
+    .content-p p{
+    margin: 14px 0;
+    }    
 
 }
 @media screen  and  (min-width: 1280px){
